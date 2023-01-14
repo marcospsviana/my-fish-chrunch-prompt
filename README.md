@@ -1,1 +1,1 @@
-# my-fish-chrunch-prompt
+# my-fish-prompt
