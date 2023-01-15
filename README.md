@@ -12,12 +12,13 @@ https://github.com/mkitby/oh-my-zsh/blob/master/themes/crunch.zsh-theme
 
 #### Installation step by step
  
+_Note: needed git installed_
 
 
-##### 1. Clone the repository <!-- omit in toc -->
+##### 1. Clone the repository 
 
 ```sh
-git https://github.com/marcospsviana/my-fish-prompt.git ~/my-promp-fish
+git clone https://github.com/marcospsviana/my-fish-prompt.git ~/my-promp-fish
 ```
 
 
