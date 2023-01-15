@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "Configuring fish prompt for new style ..."
 
 DIRECTORY=$HOME/.config/fish/functions
 FISH=$(which fish)
