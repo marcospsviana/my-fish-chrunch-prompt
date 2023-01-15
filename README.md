@@ -15,11 +15,11 @@ Basic Installation
 The script installed by running one of the following commands in your terminal. You can install this via the command-line with either curl, wget or another similar tool.
 
 
-| Method 	|  Command                                                                                    |
-| :-------- | :------------------------------------------------------------------------------------------ |
-| **curl**  |  `sh -c "$(curl -fsSL https://raw.githubusercontent.com/my-fish-prompt/main/install.sh)"`     |
-| **wget**  |  `sh -c "$(wget -O- https://raw.githubusercontent.com/my-fish-prompt/main/install.sh)"`   |
-| **fetch**	|  `sh -c "$(fetch -o - https://raw.githubusercontent.com/my-fish-prompt/main/install.sh)"` |
+| Method 	|  Command                                                                                                |
+| :-------- | :------------------------------------------------------------------------------------------------------ |
+| **curl**  |  `sh -c "$(curl -fsSL https://raw.githubusercontent.com/marcospsviana/my-fish-prompt/main/install.sh)"` |
+| **wget**  |  `sh -c "$(wget -O- https://raw.githubusercontent.com/marcospsviana/my-fish-prompt/main/install.sh)"`   |
+| **fetch**	|  `sh -c "$(fetch -o- https://raw.githubusercontent.com/marcospsviana/my-fish-prompt/main/install.sh)"`  |
 
 
 _Note that any previous fish_prompt.fish will be renamed to fish_prompt.bkp.copy. After installation needed close current terminal and open again to see new style._
