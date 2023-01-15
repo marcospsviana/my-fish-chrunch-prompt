@@ -13,14 +13,13 @@ if [ "$FISH" = "/usr/bin/fish" ]; then
         if [ -d "$DIRECTORY" ]; then
             if [ -f "$FILE_PROMPT" ]; then
                 (
-                    echo "Found $FILE_PROMPT moving file to $FILE_PROMPT_BKP"
                     mv "$FILE_PROMPT" "$FILE_PROMPT_BKP"
                     cp $HOME/my-fish-prompt/fish_prompt.fish "$DIRECTORY"
-                    echo "style prompt is configured successfull!!!"
+                    $(echo style prompt is configured successfull!!!)
                 )
             else
                 cp fish_prompt.fish "$DIRECTORY"
-                echo "style prompt is configured successfull!!!"
+                $(echo style prompt is configured successfull!!!)
             fi
         else
             mkdir "$DIRECTORY"
