@@ -15,7 +15,7 @@ if [ "$FISH" = "/usr/bin/fish" ]; then
                 (
                     echo "Found $FILE_PROMPT moving file to $FILE_PROMPT_BKP"
                     mv "$FILE_PROMPT" "$FILE_PROMPT_BKP"
-                    cp fish_prompt.fish "$DIRECTORY"
+                    cp $HOME/my-fish-prompt/fish_prompt.fish "$DIRECTORY"
                 )
             else
                 cp fish_prompt.fish "$DIRECTORY"
