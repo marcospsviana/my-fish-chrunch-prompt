@@ -15,9 +15,7 @@ if [ "$FISH" = "/usr/bin/fish" ]; then
                 (
                     echo "Found $FILE_PROMPT moving file to $FILE_PROMPT_BKP"
                     mv "$FILE_PROMPT" "$FILE_PROMPT_BKP"
-                    curl -fsSL https://raw.githubusercontent.com/marcospsviana/my-fish-prompt/main/fish_prompt.fish
                     cp fish_prompt.fish "$DIRECTORY"
-                    rm fish_prompt.fish
                 )
             else
                 cp fish_prompt.fish "$DIRECTORY"
