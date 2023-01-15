@@ -17,7 +17,7 @@ The script installed by running one of the following commands in your terminal. 
 
 | Method 	|  Command                                                                                    |
 | :-------- | :------------------------------------------------------------------------------------------ |
-| **curl**  |  `sh -c "$(curl -fsSL https://github.com/marcospsviana/my-fish-prompt/main/install.sh)"`     |
+| **curl**  |  `sh -c "$(curl -fsSL https://raw.github.com/marcospsviana/my-fish-prompt/main/install.sh)"`     |
 | **wget**  |  `sh -c "$(wget -O- https://raw.github.com/marcospsviana/my-fish-prompt/main/install.sh)"`   |
 | **fetch**	|  `sh -c "$(fetch -o - https://raw.github.com/marcospsviana/my-fish-prompt/main/install.sh)"` |
 
