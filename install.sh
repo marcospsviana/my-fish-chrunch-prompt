@@ -24,9 +24,9 @@ if [ "$FISH" = "/usr/bin/fish" ]; then
             mkdir "$DIRECTORY"
             cp fish_prompt.fish "$DIRECTORY"
         fi
-        echo "Fish prompt is configured successfull!!! :) "
+        echo "Fish prompt is configured successfull!!!"
     )
 else
-    echo "fish is not installed, sorry, but to proceeed with scrpit fish is needed!! :'("
+    echo "fish is not installed, sorry, but to proceeed with scrpit fish is needed!!"
     
 fi
