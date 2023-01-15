@@ -18,7 +18,7 @@ _Note: needed git installed_
 ##### 1. Clone the repository 
 
 ```sh
-git clone https://github.com/marcospsviana/my-fish-prompt.git ~/my-promp-fish
+git clone https://github.com/marcospsviana/my-fish-prompt.git ~/my-fish-prompt
 ```
 
 
