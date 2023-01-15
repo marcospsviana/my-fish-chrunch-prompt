@@ -8,11 +8,16 @@
 
 https://github.com/mkitby/oh-my-zsh/blob/master/themes/crunch.zsh-theme
 
-## How to install
+### Prerequisites
+
+- fish
+- git
+
+### How to install
 
 #### Installation step by step
  
-_Note: needed git installed_
+_Note: git must be installed_
 
 
 ##### 1. Clone the repository 
