@@ -23,3 +23,4 @@ The script installed by running one of the following commands in your terminal. 
 
 
 _Note that any previous fish_prompt.fish will be renamed to fish_prompt.bkp.copy. After installation needed close current terminal and open again to see new style._
+
