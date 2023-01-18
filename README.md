@@ -59,5 +59,5 @@ rm -rf my-fish-prompt
 ```
 
 
-_Note that any previous fish_prompt.fish will be renamed to fish_prompt.bkp.copy. Once installed, you will have to close the terminal and open it again to see the new prompt style.._
+_Note that any previous fish_prompt.fish will be renamed to fish_prompt.bkp.copy. Once installed, you will have to close the terminal and open it again to see the new prompt style._
 
