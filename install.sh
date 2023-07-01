@@ -1,11 +1,11 @@
 #!/bin/bash
 
-
 DIRECTORY=$HOME/.config/fish/functions
 FISH=$(which fish)
 FILE_PROMPT=$HOME/.config/fish/functions/fish_prompt.fish
 FILE_PROMPT_BKP=$HOME/.config/fish/functions/fish_prompt.bkp.copy
-
+FISH_PROMPT=$(pwd)/fish_promp.fish
+echo "THE LOCALE FISH IS " + $FISH_PROMPT
 
 if [ "$FISH" = "/usr/bin/fish" ]; then
     (
@@ -14,7 +14,8 @@ if [ "$FISH" = "/usr/bin/fish" ]; then
             if [ -f "$FILE_PROMPT" ]; then
                 (
                     mv "$FILE_PROMPT" "$FILE_PROMPT_BKP"
-                    cp $HOME/my-fish-prompt/fish_prompt.fish "$DIRECTORY"
+                    # cp $HOME/my-fish-prompt/fish_prompt.fish "$DIRECTORY"
+                    cp $FISH_PROMPT "$DIRECTORY"
                     echo "style prompt is configured successfull!!!"
                 )
             else
